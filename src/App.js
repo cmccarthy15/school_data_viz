@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import styled from 'styled-components'
 import StatsView from './StatsComponents/StatsView';
@@ -32,35 +32,6 @@ const Main = styled.div`
   }
 `
 
-// const MainStyling = {
-//   height: 'calc(100vh - 60px)',
-//   width: '100vw',
-
-//   overflow: 'scroll',
-
-//   display: 'flex',
-//   flexDirection: 'column',
-//   alignItems: 'center'
-
-  // @media (max-width: '600px') {
-  //   height: 'calc(100vh - 42px)'
-  // }
-// }
-// const ContainerStyling = {
-//   height: '100vh', 
-//   width: '100vw', 
-
-//   background: 'rgb(113, 19, 11)', 
-
-//   display: 'flex', 
-//   flexDirection: 'column', 
-//   justifyContent: 'space-between', 
-//   alignItems: 'center'
-// }
-
-
-
-
 const App = props => {
 
   // const [difficulty, setDifficulty] = useState("easy")
@@ -78,13 +49,6 @@ const App = props => {
 
 export default App;
 
-{/* <div style={ContainerStyling}> */}
-      {/* <Header /> */}
-      // <div style={MainStyling}>
-        // <div>sup friend</div>
-          {/* <CardStack key={difficulty} difficulty={difficulty} setDifficulty={setDifficulty}/> */}
-      // </div>
-    // </div>
 
 
     /**
